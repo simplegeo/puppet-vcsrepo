@@ -1,0 +1,5 @@
+puppet-module-vcsrepo (0.0.3+git20100913-0sg0) unstable; urgency=low
+
+  * Debianized.
+
+ -- Ian Eure <ian@simplegeo.com>  Mon, 13 Sep 2010 11:04:23 -0700

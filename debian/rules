@@ -1,0 +1,10 @@
+#!/usr/bin/make -f
+
+include /usr/share/cdbs/1/rules/debhelper.mk
+
+
+# Add here any variable or target overrides you need.
+
+install/puppet-module-vcsrepo::
+	install -m 0755 -d $(DEB_DESTDIR)/usr/share/puppet/modules/vcsrepo
+	cp -R $(CURDIR)/lib $(DEB_DESTDIR)/usr/share/puppet/modules/vcsrepo
