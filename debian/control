@@ -1,7 +1,8 @@
 Source: puppet-module-vcsrepo
-Section: unknown
+Section: admin
 Priority: extra
-Maintainer: Ian Eure <ian@simplegeo.com>
+Maintainer: SimpleGeo Nerds <nerds@simplegeo.com>
+Uploaders: Ian Eure <ian@simplegeo.com>
 Build-Depends: cdbs, debhelper (>= 7)
 Standards-Version: 3.8.4
 Homepage: http://github.com/bruce/puppet-vcsrepo
@@ -11,10 +12,10 @@ Architecture: all
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: This provides a type for managing VCS repos with Puppet.
  This type can be used to describe:
- * A working copy checked out from a (remote or local) source, at an
-   arbitrary revision
- * A "blank" working copy not associated with a source (when it makes
-   sense for the VCS being used)
- * A"blank" central repository (when the distinction makes sense for
-   the VCS being used)
+  * A working copy checked out from a (remote or local) source, at an
+    arbitrary revision
+  * A "blank" working copy not associated with a source (when it makes
+    sense for the VCS being used)
+  * A "blank" central repository (when the distinction makes sense for
+    the VCS being used)
 
