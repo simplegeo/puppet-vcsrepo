@@ -1,3 +1,14 @@
+puppet-module-vcsrepo (0.0.3+git20100913-0sg1) lucid; urgency=low
+
+  [ Ian Eure ]
+  * Fix lintian issues.
+  * Update Standards-Version.
+  * Depend on puppet-common.
+
+  [ SimpleGeo Nerds ]
+
+ -- SimpleGeo Nerds <nerds@simplegeo.com>  Mon, 13 Sep 2010 21:21:14 +0000
+
 puppet-module-vcsrepo (0.0.3+git20100913-0sg0) unstable; urgency=low
 
   * Debianized.
