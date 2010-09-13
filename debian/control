@@ -9,7 +9,7 @@ Homepage: http://github.com/bruce/puppet-vcsrepo
 
 Package: puppet-module-vcsrepo
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, puppet-common
 Description: This provides a type for managing VCS repos with Puppet.
  This type can be used to describe:
   * A working copy checked out from a (remote or local) source, at an
